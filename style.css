@@ -1,0 +1,59 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+
+.container{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-columns: 25% 75%;
+}
+
+.second-column{
+    display: grid;
+    grid-template-rows: 25% 75%;
+    max-height: 100vh;
+}
+
+.sidebar{
+    display: grid;
+    grid-template-rows: 50px repeat(11, 30px);
+    background-color: lightblue;
+    justify-content: start;
+    max-height: 100vh;
+    overflow: scroll;
+}
+
+.sidebar-item span
+{
+    position: relative;
+    top: -4px;
+}
+
+.sidebar-item>a.Dashboard span{
+    top: -8px;
+}
+
+a.Dashboard{
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+.header{
+    background-color: lightgray;
+}
+
+.main{
+    background-color: darkgray;
+}
+
+a>img{
+    height: 65%;
+}
