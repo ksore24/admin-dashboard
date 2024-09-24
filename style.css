@@ -20,10 +20,11 @@ html, body{
 .sidebar{
     display: grid;
     grid-template-rows: 50px repeat(11, 30px);
-    background-color: lightblue;
+    background-color: rgb(26, 146, 211);
     justify-content: start;
     max-height: 100vh;
     overflow: scroll;
+    padding: 10px;
 }
 
 .sidebar-item span
@@ -38,20 +39,22 @@ html, body{
 
 a.Dashboard{
     font-size: 20px;
+    margin-left: 5px;
 }
 
 a{
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 15px;
+    margin-left: 10px;
 }
 
 .header{
-    background-color: lightgray;
+    background-color: white;
 }
 
 .main{
-    background-color: darkgray;
+    background-color: rgb(226, 232, 240);
 }
 
 a>img{
