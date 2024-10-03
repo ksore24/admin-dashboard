@@ -37,16 +37,20 @@ html, body{
     top: -8px;
 }
 
-a.Dashboard{
+.sidebar a.Dashboard{
     font-size: 20px;
     margin-left: 5px;
 }
 
-a{
+.sidebar a{
     text-decoration: none;
     color: white;
     font-size: 15px;
     margin-left: 10px;
+}
+
+.sidebar img, .header img{
+    height: 65%;
 }
 
 .header{
@@ -55,15 +59,34 @@ a{
     grid-template-columns: 5fr repeat(3, 1fr);
     background-color: white;
     max-height: 100vh;
-
 }
 
-.main{
-    background-color: rgb(226, 232, 240);
+.searchbar{
+    margin: auto;
+    margin-left: 20px;
+    height: 20px;
+    width: 110%;
 }
 
-img{
-    height: 65%;
+input{
+    border-radius: 20px;
+    width: 80%;
+}
+
+.header>.alert-icon{
+    margin: auto;
+    margin-right: -20%;
+    height: 20px;
+}
+
+.header>.profile-icon{
+    height: 50%;
+    margin: auto;
+}
+
+.username{
+    margin: auto;
+    margin-left: -20%;
 }
 
 .welcomeInfo{
@@ -101,30 +124,6 @@ button:hover{
     cursor: pointer;
 }
 
-input{
-    border-radius: 20px;
-    width: 80%;
-}
-
-.searchbar{
-    margin: auto;
-    margin-left: 20px;
-    height: 20px;
-    width: 110%;
-}
-
-.alert-icon{
-    margin: auto;
-    margin-right: -20%;
-    height: 20px;
-}
-
-.profile-icon{
-    height: 50%;
-    margin: auto;
-}
-
-.username{
-    margin: auto;
-    margin-left: -20%;
+.main{
+    background-color: rgb(226, 232, 240);
 }
