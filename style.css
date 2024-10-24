@@ -96,7 +96,7 @@ input{
 }
 
 .profile>a>.profile-icon{
-    height: 45px;
+    height: 40px;
 }
 
 .welcomeInfo{
@@ -104,6 +104,10 @@ input{
     margin: auto;
     margin-left: 20px;
     display: flex;
+}
+
+.welcomeInfo img{
+    height: 60px;
 }
 
 .welcomeInfo>div{
@@ -255,7 +259,7 @@ button:hover{
 .user>div{
     margin-left: 10px;
     font-size: 12px;
-    margin-top: 3px;
+    margin-top: 4px;
 }
 
 .user>div>span{
